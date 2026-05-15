@@ -1,18 +1,20 @@
-# Lthiagol Awesome-stow
+# awesome-stow
 
-## How do I install these formulae?
+Homebrew tap for [awesome-stow](https://github.com/lthiagol/awesome-stow) — a TUI wrapper for GNU Stow.
 
-`brew install lthiagol/awesome-stow/<formula>`
+## Install
 
-Or `brew tap lthiagol/awesome-stow` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "lthiagol/awesome-stow"
-brew "<formula>"
+```bash
+brew install lthiagol/awesome-stow/awesome-stow
 ```
 
-## Documentation
+## Requirements
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [GNU Stow](https://www.gnu.org/software/stow/) (installed automatically as a dependency)
+- Rust (installed automatically as a build dependency)
+
+## Update
+
+```bash
+brew upgrade lthiagol/awesome-stow/awesome-stow
+```
